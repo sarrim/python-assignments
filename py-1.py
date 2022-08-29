@@ -56,6 +56,8 @@ course = 'This is python course';
 
 # + addition, - subtraction, * multiplication, / division (returns float), // division returns int, % returns reminder, ** exponent returns power of num
 # augmented / enhanced assignment operator (x = 10, x = x+3, x+=3)
+#   membership operators (in / not in)
+#   identity operators ( is / not is )
 
 # x = 10
 # x+= x+3
