@@ -1,6 +1,3 @@
-from unicodedata import name
-
-
 def test_fun(fname):
     print(fname + ' name')
 
@@ -10,5 +7,5 @@ test_fun('test2')
 
 
 def infinite_args(*args):
-    print(args, ' name')
+    print(args)
 infinite_args('sarmad', 'sarmad@mail.com', '323232', 'home addresss')
