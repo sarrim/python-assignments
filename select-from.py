@@ -9,7 +9,11 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-mycursor.execute("SELECT * FROM customers")
+sql = 'SELECT * FROM test WHERE address = %s '
+whr = ('rt', )
+
+mycursor.execute(sql,whr)
+
 
 myresult = mycursor.fetchall()
 
